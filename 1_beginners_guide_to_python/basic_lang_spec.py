@@ -49,7 +49,7 @@ def chapter_1_3_4():
 
 
 def chapter_1_3_5():
-    print("-----ディクショナリ-----")
+    print('-----ディクショナリ-----')
 
     me = {'height': 180}
     print(me['height'])  # 180
@@ -59,7 +59,7 @@ def chapter_1_3_5():
 
 
 def chapter_1_3_6():
-    print("-----ブーリアン-----")
+    print('-----ブーリアン-----')
 
     hungry = True
     sleepy = False
@@ -74,7 +74,7 @@ def chapter_1_3_6():
 
 
 def chapter_1_3_7():
-    print("-----if文-----")
+    print('-----if文-----')
 
     hungry = True
     if hungry:
@@ -102,14 +102,14 @@ def chapter_1_3_9():
     print('-----関数-----')
 
     def hello():
-        print("Hello World!")
+        print('Hello World!')
 
     hello()  # Hello World!
 
     def hello(object):
-        print("Hello " + object + "!")
+        print('Hello ' + object + '!')
 
-    hello("cat")  # Hello cat!
+    hello('cat')  # Hello cat!
 
 
 def chapter_1_4_2():
@@ -118,13 +118,13 @@ def chapter_1_4_2():
     class Man:
         def __init__(self, name):
             self.name = name
-            print("Initialized!")
+            print('Initialized!')
 
         def hello(self):
-            print("Hello " + self.name + "!")
+            print('Hello ' + self.name + '!')
 
         def goodbye(self):
-            print("Good bye " + self.name + "!")
+            print('Good bye ' + self.name + '!')
 
     m = Man('David')
     m.hello()  # Hello David!

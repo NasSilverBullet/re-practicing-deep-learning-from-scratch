@@ -24,7 +24,7 @@ def chapter_1_6_2():
     y2 = np.cos(x)
 
     # グラフの描画
-    plt.plot(x, y1, label="sin")
+    plt.plot(x, y1, label="sin")  # キーワード引数は=の両脇にスペースをつけない
     plt.plot(x, y2, linestyle='--', label='cos')  # 破線で描画
     plt.xlabel('x')  # x 軸のラベル
     plt.ylabel('y')  # y 軸のラベル
