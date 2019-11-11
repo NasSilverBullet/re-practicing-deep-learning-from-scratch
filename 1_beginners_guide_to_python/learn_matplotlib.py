@@ -34,7 +34,7 @@ def chapter_1_6_2():
 
 
 def chapter_1_6_3():
-    print('画像の標準表示')
+    print('画像の表示')
 
     img = imread('deep-learning-from-scratch/dataset/lena.png')
     plt.imshow(img)
