@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-# from を使うと imread をグローバルなメソッドのように使用できる
+# from を使うと imread を標準メソッドのように使用できる
 from matplotlib.image import imread
 
 
@@ -34,6 +34,8 @@ def chapter_1_6_2():
 
 
 def chapter_1_6_3():
+    print('画像の標準表示')
+
     img = imread('deep-learning-from-scratch/dataset/lena.png')
     plt.imshow(img)
     plt.show()

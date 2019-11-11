@@ -32,6 +32,7 @@ def chapter_1_5_3():
 
 def chapter_1_5_4():
     print('NumPyのN次元配列')
+
     A = np.array([[1, 2], [3, 4]])
     print(A)
     '''
