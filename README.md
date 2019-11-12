@@ -8,11 +8,11 @@ class FizzBuzz:
 
     def __get(self, num):
         if num % 15 == 0:
-            return "FizzBuzz"
+            return 'FizzBuzz'
         if num % 5 == 0:
-            return "Buzz"
+            return 'Buzz'
         if num % 3 == 0:
-            return "Fizz"
+            return 'Fizz'
         return num
 
     def run(self):
